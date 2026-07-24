@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 56" overflow="visible" class="mch idle">
+<title>The little machine — idle</title>
+<style>
+:root{
+  --ground:#FBFAF7; --ink:#201D1A; --byte-fill:#EFF2FA;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --ground:#171511; --ink:#F1ECE4; --byte-fill:#1D2436;
+  }
+}
+.mch .m-body{ fill:var(--byte-fill); stroke:var(--ink); stroke-width:2; stroke-linejoin:round; }
+.mch .m-eyew{ fill:var(--ground); stroke:var(--ink); stroke-width:2; }
+.mch .m-pupil{ fill:var(--ink); }
+.mch .m-lid{ fill:var(--byte-fill); stroke:var(--ink); stroke-width:2; stroke-linecap:round; transform-box:fill-box; transform-origin:center top; transform:scaleY(0); }
+.mch .m-brow{ stroke:var(--ink); stroke-width:2; stroke-linecap:round; fill:none; opacity:0; }
+.mch .m-antenna{ stroke:var(--ink); stroke-width:2; stroke-linecap:round; fill:none; }
+.mch .m-bulb{ fill:var(--ground); stroke:var(--ink); stroke-width:2; }
+.mch .m-foot{ fill:none; stroke:var(--ink); stroke-width:2; stroke-linecap:round; }
+</style>
+<path class="m-foot" d="M22 49 q-1 4 -5 4 M38 49 q1 4 5 4"/>
+<path class="m-antenna" d="M30 8 v-5"/><circle class="m-bulb" cx="30" cy="2.5" r="2.6"/>
+<path class="m-body" d="M8 34 C8 16 20 8 30 8 C40 8 52 16 52 34 C52 45 44 50 30 50 C16 50 8 45 8 34 Z"/>
+<path class="m-brow" d="M15 20 q4 -3 8 -1 M37 19 q4 -2 8 1"/>
+<ellipse class="m-eyew" cx="22.5" cy="30" rx="7.5" ry="8.5"/>
+<ellipse class="m-eyew" cx="37.5" cy="30" rx="7.5" ry="8.5"/>
+<circle class="m-pupil" cx="22.5" cy="31" r="3.1"/>
+<circle class="m-pupil" cx="37.5" cy="31" r="3.1"/>
+<ellipse class="m-lid" cx="22.5" cy="30" rx="8" ry="9"/>
+<ellipse class="m-lid" cx="37.5" cy="30" rx="8" ry="9"/>
+</svg>
